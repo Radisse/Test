@@ -15,3 +15,9 @@ function calculate()
 	var result = w*h*l;
 	document.getElementById("result").innerHTML = "Resultatet er: " + result;
 }
+function openBrowser(url)
+{
+	var target = '_blank';
+	var options = "location = yes"
+	var ref = cordova.InAppBrowser.open(url, target, options);
+}
