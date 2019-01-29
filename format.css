@@ -1,0 +1,19 @@
+body
+{
+ text-align: center;
+ background-color: blue;
+ color: white;
+}
+
+#button1
+{
+	width: 50%;
+	height: 100%;
+	text-align: auto;
+	color: white;
+}
+
+#newContent
+{
+	color: white;
+}
